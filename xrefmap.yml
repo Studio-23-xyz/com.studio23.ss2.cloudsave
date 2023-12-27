@@ -48,6 +48,12 @@ references:
   commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
   nameWithType: AbstractCloudSaveProvider.OnDownloadSuccess
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
+  name: OnInitializationSucess
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationSucess
+  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
+  nameWithType: AbstractCloudSaveProvider.OnInitializationSucess
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
   name: OnUploadSuccess
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadSuccess
