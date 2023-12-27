@@ -1,0 +1,33 @@
+{
+  "name": "com.studio23.ss2.cloudsave",
+  "version": "0.0.2",
+  "displayName": "Cloud Save Core",
+  "description": "This system will be used to implement Cloud Save from diffrent platforms",
+  "unity": "2022.3",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/manual/",
+  "changelogUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/changelog/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/license/LICENSE.html",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2"
+      ]
+    }
+  ],
+  "dependencies": {
+	  "com.studio23.ss2.authsystem": "2.0.7"
+  },
+  "keywords": [
+    "Cloud Save",
+    "Steam",
+    "XBOX"
+  ],
+  "author": {
+    "name": "Studio 23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
