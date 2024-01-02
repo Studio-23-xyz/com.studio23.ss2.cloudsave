@@ -42,18 +42,36 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.InitializePlatformService
   nameWithType: AbstractCloudSaveProvider.InitializePlatformService
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
+  name: OnDownloadFail
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadFail
+  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
+  nameWithType: AbstractCloudSaveProvider.OnDownloadFail
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
   name: OnDownloadSuccess
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadSuccess
   commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
   nameWithType: AbstractCloudSaveProvider.OnDownloadSuccess
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
+  name: OnInitializationFail
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationFail
+  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
+  nameWithType: AbstractCloudSaveProvider.OnInitializationFail
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
   name: OnInitializationSucess
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationSucess
   commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
   nameWithType: AbstractCloudSaveProvider.OnInitializationSucess
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
+  name: OnUploadFail
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadFail
+  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
+  nameWithType: AbstractCloudSaveProvider.OnUploadFail
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
   name: OnUploadSuccess
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadSuccess
