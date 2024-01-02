@@ -11,8 +11,11 @@ namespace Studio23.SS2.CloudSave.Core
         [SerializeField]internal bool _registerOnStart=true;
 
         public UnityEvent OnInitializationSucess;
+        public UnityEvent OnInitializationFail;
         public UnityEvent OnUploadSuccess;
+        public UnityEvent OnUploadFail;
         public UnityEvent OnDownloadSuccess;
+        public UnityEvent OnDownloadFail;
 
 
         /// <summary>
