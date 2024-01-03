@@ -194,6 +194,19 @@ references:
   commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
   nameWithType: AbstractCloudSaveProvider.OnUploadSuccess
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
+  name: Start()
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Start
+  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start()
+  nameWithType: AbstractCloudSaveProvider.Start()
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start*
+  name: Start
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Start_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
+  nameWithType: AbstractCloudSaveProvider.Start
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String)
   name: UploadToCloud(string, string)
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_System_String_System_String_
