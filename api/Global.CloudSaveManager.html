@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AbstractCloudSaveProvider
+      <title>Class CloudSaveManager
  |  |  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AbstractCloudSaveProvider
+      <meta name="title" content="Class CloudSaveManager
  |  |  ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/new/main/apiSpec/new?filename=Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider.md&amp;value=---%0Auid%3A%20Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/new/main/apiSpec/new?filename=Global_CloudSaveManager.md&amp;value=---%0Auid%3A%20Global.CloudSaveManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,17 +85,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider">
+        <article data-uid="Global.CloudSaveManager">
 
 
 
-  <h1 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider" class="text-break">
-    Class AbstractCloudSaveProvider
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Global_CloudSaveManager" data-uid="Global.CloudSaveManager" class="text-break">
+    Class CloudSaveManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Studio23.html">Studio23</a>.<a class="xref" href="Studio23.SS2.html">SS2</a>.<a class="xref" href="Studio23.SS2.CloudSave.html">CloudSave</a>.<a class="xref" href="Studio23.SS2.CloudSave.Core.html">Core</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Global.html">Global</a></dd></dl>
   
   </div>
 
@@ -103,7 +103,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class AbstractCloudSaveProvider : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CloudSaveManager : MonoBehaviour</code></pre>
   </div>
 
 
@@ -113,7 +113,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">System.Object</span></div>
-      <div><span class="xref">AbstractCloudSaveProvider</span></div>
+      <div><span class="xref">CloudSaveManager</span></div>
     </dd>
   </dl>
 
@@ -130,16 +130,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadFail" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail">
+  <h3 id="Global_CloudSaveManager_OnDownloadFail" data-uid="Global.CloudSaveManager.OnDownloadFail">
   OnDownloadFail
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnDownloadFail</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnDownloadFail</code></pre>
   </div>
 
 
@@ -160,16 +160,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadSuccess" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess">
+  <h3 id="Global_CloudSaveManager_OnDownloadSuccess" data-uid="Global.CloudSaveManager.OnDownloadSuccess">
   OnDownloadSuccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnDownloadSuccess</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnDownloadSuccess</code></pre>
   </div>
 
 
@@ -190,16 +190,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationFail" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail">
+  <h3 id="Global_CloudSaveManager_OnInitializationFail" data-uid="Global.CloudSaveManager.OnInitializationFail">
   OnInitializationFail
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnInitializationFail</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnInitializationFail</code></pre>
   </div>
 
 
@@ -220,16 +220,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationSucess" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess">
+  <h3 id="Global_CloudSaveManager_OnInitializationSucess" data-uid="Global.CloudSaveManager.OnInitializationSucess">
   OnInitializationSucess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnInitializationSucess</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnInitializationSucess</code></pre>
   </div>
 
 
@@ -250,16 +250,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadFail" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail">
+  <h3 id="Global_CloudSaveManager_OnUploadFail" data-uid="Global.CloudSaveManager.OnUploadFail">
   OnUploadFail
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnUploadFail</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnUploadFail</code></pre>
   </div>
 
 
@@ -280,16 +280,16 @@
 
 
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadSuccess" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess">
+  <h3 id="Global_CloudSaveManager_OnUploadSuccess" data-uid="Global.CloudSaveManager.OnUploadSuccess">
   OnUploadSuccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected UnityEvent OnUploadSuccess</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnUploadSuccess</code></pre>
   </div>
 
 
@@ -313,11 +313,11 @@
 </h2>
 
 
-  <a id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_DownloadFromCloud_" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud*"></a>
+  <a id="Global_CloudSaveManager_DownloadFromCloud_" data-uid="Global.CloudSaveManager.DownloadFromCloud*"></a>
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_DownloadFromCloud_System_String_System_String_" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String)">
+  <h3 id="Global_CloudSaveManager_DownloadFromCloud_System_String_System_String_" data-uid="Global.CloudSaveManager.DownloadFromCloud(System.String,System.String)">
   DownloadFromCloud(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>You should fire OnDownloadSuccess in the implementation</p>
@@ -325,7 +325,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void DownloadFromCloud(string key, string downloadLocation)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DownloadFromCloud(string key, string downloadLocation)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -347,11 +347,11 @@
 
 
 
-  <a id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Initialize_" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Initialize*"></a>
+  <a id="Global_CloudSaveManager_Initialize_" data-uid="Global.CloudSaveManager.Initialize*"></a>
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Initialize" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Initialize">
+  <h3 id="Global_CloudSaveManager_Initialize" data-uid="Global.CloudSaveManager.Initialize">
   Initialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This is responsible for initialization of platform cloud save feature if needed</p>
@@ -359,7 +359,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
   </div>
 
 
@@ -374,11 +374,65 @@
 
 
 
-  <a id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud*"></a>
+  <a id="Global_CloudSaveManager_RegisterWithAuthSystem_" data-uid="Global.CloudSaveManager.RegisterWithAuthSystem*"></a>
 
-  <h3 id="Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_System_String_System_String_" data-uid="Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String)">
+  <h3 id="Global_CloudSaveManager_RegisterWithAuthSystem" data-uid="Global.CloudSaveManager.RegisterWithAuthSystem">
+  RegisterWithAuthSystem()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Registers to auth system however it can be overriden</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RegisterWithAuthSystem()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_CloudSaveManager_Start_" data-uid="Global.CloudSaveManager.Start*"></a>
+
+  <h3 id="Global_CloudSaveManager_Start" data-uid="Global.CloudSaveManager.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls Registration on start if it's true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Global_CloudSaveManager_UploadToCloud_" data-uid="Global.CloudSaveManager.UploadToCloud*"></a>
+
+  <h3 id="Global_CloudSaveManager_UploadToCloud_System_String_System_String_" data-uid="Global.CloudSaveManager.UploadToCloud(System.String,System.String)">
   UploadToCloud(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/AbstractCloudSaveProvider.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.cloudsave/blob/main/Assets/Packages/com.studio23.ss2.cloudsave/Runtime/Core/CloudSaveManager.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>You should fire OnUploadSuccess in the implementation.</p>
@@ -386,7 +440,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void UploadToCloud(string key, string filepath)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UploadToCloud(string key, string filepath)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
