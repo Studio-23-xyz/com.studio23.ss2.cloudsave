@@ -1,0 +1,10 @@
+# Changelog
+
+## [v0.0.4] - 2024-1-3
+
+- Added a cloud Save Manager
+- Now provider calls are wrapped behind the manager class another level of abstraction
+
+## [v0.0.1] - 2023-12-22
+
+- Initial Release
