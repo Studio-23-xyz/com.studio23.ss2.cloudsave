@@ -15,6 +15,17 @@ namespace Studio23.SS2.CloudSave.Core
         internal protected UnityEvent OnDownloadSuccess;
         internal protected UnityEvent OnDownloadFail;
 
+        internal protected virtual void Start()
+        {
+            OnInitializationSucess=new UnityEvent();
+            OnInitializationFail=new UnityEvent();
+
+            OnUploadSuccess=new UnityEvent();
+            OnUploadFail=new UnityEvent();
+
+            OnDownloadSuccess=new UnityEvent();
+            OnDownloadFail=new UnityEvent();
+        }
 
         /// <summary>
         /// This is responsible for initialization of platform cloud save feature if needed
