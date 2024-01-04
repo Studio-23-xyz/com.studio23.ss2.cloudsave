@@ -1,23 +1,23 @@
 {
-  "api/Global.CloudSaveManager.html": {
-    "href": "api/Global.CloudSaveManager.html",
-    "title": "Class CloudSaveManager | |",
-    "keywords": "Class CloudSaveManager Namespace Global public class CloudSaveManager : MonoBehaviour Inheritance System.Object CloudSaveManager Fields OnDownloadFail public UnityEvent OnDownloadFail Field Value UnityEvent OnDownloadSuccess public UnityEvent OnDownloadSuccess Field Value UnityEvent OnInitializationFail public UnityEvent OnInitializationFail Field Value UnityEvent OnInitializationSucess public UnityEvent OnInitializationSucess Field Value UnityEvent OnUploadFail public UnityEvent OnUploadFail Field Value UnityEvent OnUploadSuccess public UnityEvent OnUploadSuccess Field Value UnityEvent Methods DownloadFromCloud(string, string) You should fire OnDownloadSuccess in the implementation public void DownloadFromCloud(string key, string downloadLocation) Parameters key string downloadLocation string Initialize() This is responsible for initialization of platform cloud save feature if needed public void Initialize() RegisterWithAuthSystem() Registers to auth system however it can be overriden public virtual void RegisterWithAuthSystem() Start() Calls Registration on start if it's true public virtual void Start() UploadToCloud(string, string) You should fire OnUploadSuccess in the implementation. public void UploadToCloud(string key, string filepath) Parameters key string filepath string"
-  },
-  "api/Global.html": {
-    "href": "api/Global.html",
-    "title": "Namespace | |",
-    "keywords": "Namespace Classes CloudSaveManager"
+  "api/Studio23.SS2.CloudSave.Core.API_States.html": {
+    "href": "api/Studio23.SS2.CloudSave.Core.API_States.html",
+    "title": "Enum API_States | |",
+    "keywords": "Enum API_States Namespace Studio23.SS2.CloudSave.Core public enum API_States Fields Failed = 3 None = 0 Process_Started = 1 Success = 2"
   },
   "api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html": {
     "href": "api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html",
     "title": "Class AbstractCloudSaveProvider | |",
-    "keywords": "Class AbstractCloudSaveProvider Namespace Studio23.SS2.CloudSave.Core public abstract class AbstractCloudSaveProvider : MonoBehaviour Inheritance System.Object AbstractCloudSaveProvider Fields OnDownloadFail protected UnityEvent OnDownloadFail Field Value UnityEvent OnDownloadSuccess protected UnityEvent OnDownloadSuccess Field Value UnityEvent OnInitializationFail protected UnityEvent OnInitializationFail Field Value UnityEvent OnInitializationSucess protected UnityEvent OnInitializationSucess Field Value UnityEvent OnUploadFail protected UnityEvent OnUploadFail Field Value UnityEvent OnUploadSuccess protected UnityEvent OnUploadSuccess Field Value UnityEvent Methods DownloadFromCloud(string, string) You should fire OnDownloadSuccess in the implementation protected abstract void DownloadFromCloud(string key, string downloadLocation) Parameters key string downloadLocation string Initialize() This is responsible for initialization of platform cloud save feature if needed protected abstract void Initialize() Start() protected virtual void Start() UploadToCloud(string, string) You should fire OnUploadSuccess in the implementation. protected abstract void UploadToCloud(string key, string filepath) Parameters key string filepath string"
+    "keywords": "Class AbstractCloudSaveProvider Namespace Studio23.SS2.CloudSave.Core public abstract class AbstractCloudSaveProvider : MonoBehaviour Inheritance System.Object AbstractCloudSaveProvider Methods DownloadFromCloud(string, string) You should fire OnDownloadSuccess in the implementation protected abstract void DownloadFromCloud(string key, string downloadLocation) Parameters key string downloadLocation string Initialize() This is responsible for initialization of platform cloud save feature if needed protected abstract void Initialize() UploadToCloud(string, string) You should fire OnUploadSuccess in the implementation. protected abstract void UploadToCloud(string key, string filepath) Parameters key string filepath string"
+  },
+  "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html": {
+    "href": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html",
+    "title": "Class CloudSaveManager | |",
+    "keywords": "Class CloudSaveManager Namespace Studio23.SS2.CloudSave.Core public class CloudSaveManager : MonoBehaviour Inheritance System.Object CloudSaveManager Fields Instance public static CloudSaveManager Instance Field Value CloudSaveManager OnDownloadFail public UnityEvent OnDownloadFail Field Value UnityEvent OnDownloadSuccess public UnityEvent OnDownloadSuccess Field Value UnityEvent OnInitializationFail public UnityEvent OnInitializationFail Field Value UnityEvent OnInitializationSucess public UnityEvent OnInitializationSucess Field Value UnityEvent OnUploadFail public UnityEvent OnUploadFail Field Value UnityEvent OnUploadSuccess public UnityEvent OnUploadSuccess Field Value UnityEvent _downloadState public API_States _downloadState Field Value API_States _initializationState public API_States _initializationState Field Value API_States _uploadState public API_States _uploadState Field Value API_States Methods DownloadFromCloud(string, string) You should fire OnDownloadSuccess in the implementation public void DownloadFromCloud(string key, string downloadLocation) Parameters key string downloadLocation string Initialize() This is responsible for initialization of platform cloud save feature if needed public void Initialize() RegisterWithAuthSystem() Registers to auth system however it can be overriden public virtual void RegisterWithAuthSystem() Start() Calls Registration on start if it's true public virtual void Start() UploadToCloud(string, string) You should fire OnUploadSuccess in the implementation. public void UploadToCloud(string key, string filepath) Parameters key string filepath string"
   },
   "api/Studio23.SS2.CloudSave.Core.html": {
     "href": "api/Studio23.SS2.CloudSave.Core.html",
     "title": "Namespace Studio23.SS2.CloudSave.Core | |",
-    "keywords": "Namespace Studio23.SS2.CloudSave.Core Classes AbstractCloudSaveProvider"
+    "keywords": "Namespace Studio23.SS2.CloudSave.Core Classes AbstractCloudSaveProvider CloudSaveManager Enums API_States"
   },
   "api/index.html": {
     "href": "api/index.html",

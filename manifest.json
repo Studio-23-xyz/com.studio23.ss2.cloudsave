@@ -15,20 +15,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.CloudSaveManager.yml",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.API_States.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.CloudSaveManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.html"
+          "relative_path": "api/Studio23.SS2.CloudSave.Core.API_States.html"
         }
       },
       "version": ""
@@ -39,6 +29,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html"
         }
       },
       "version": ""

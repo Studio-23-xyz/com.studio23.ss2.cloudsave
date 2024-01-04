@@ -1,128 +1,42 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Global
-  name: ''
-  href: api/Global.html
-- uid: Global.CloudSaveManager
-  name: CloudSaveManager
-  href: api/Global.CloudSaveManager.html
-  commentId: T:Global.CloudSaveManager
-  fullName: CloudSaveManager
-  nameWithType: CloudSaveManager
-- uid: Global.CloudSaveManager.DownloadFromCloud(System.String,System.String)
-  name: DownloadFromCloud(string, string)
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_DownloadFromCloud_System_String_System_String_
-  commentId: M:Global.CloudSaveManager.DownloadFromCloud(System.String,System.String)
-  name.vb: DownloadFromCloud(String, String)
-  fullName: CloudSaveManager.DownloadFromCloud(string, string)
-  fullName.vb: CloudSaveManager.DownloadFromCloud(String, String)
-  nameWithType: CloudSaveManager.DownloadFromCloud(string, string)
-  nameWithType.vb: CloudSaveManager.DownloadFromCloud(String, String)
-- uid: Global.CloudSaveManager.DownloadFromCloud*
-  name: DownloadFromCloud
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_DownloadFromCloud_
-  commentId: Overload:Global.CloudSaveManager.DownloadFromCloud
-  isSpec: "True"
-  fullName: CloudSaveManager.DownloadFromCloud
-  nameWithType: CloudSaveManager.DownloadFromCloud
-- uid: Global.CloudSaveManager.Initialize
-  name: Initialize()
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_Initialize
-  commentId: M:Global.CloudSaveManager.Initialize
-  fullName: CloudSaveManager.Initialize()
-  nameWithType: CloudSaveManager.Initialize()
-- uid: Global.CloudSaveManager.Initialize*
-  name: Initialize
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_Initialize_
-  commentId: Overload:Global.CloudSaveManager.Initialize
-  isSpec: "True"
-  fullName: CloudSaveManager.Initialize
-  nameWithType: CloudSaveManager.Initialize
-- uid: Global.CloudSaveManager.OnDownloadFail
-  name: OnDownloadFail
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnDownloadFail
-  commentId: F:Global.CloudSaveManager.OnDownloadFail
-  fullName: CloudSaveManager.OnDownloadFail
-  nameWithType: CloudSaveManager.OnDownloadFail
-- uid: Global.CloudSaveManager.OnDownloadSuccess
-  name: OnDownloadSuccess
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnDownloadSuccess
-  commentId: F:Global.CloudSaveManager.OnDownloadSuccess
-  fullName: CloudSaveManager.OnDownloadSuccess
-  nameWithType: CloudSaveManager.OnDownloadSuccess
-- uid: Global.CloudSaveManager.OnInitializationFail
-  name: OnInitializationFail
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnInitializationFail
-  commentId: F:Global.CloudSaveManager.OnInitializationFail
-  fullName: CloudSaveManager.OnInitializationFail
-  nameWithType: CloudSaveManager.OnInitializationFail
-- uid: Global.CloudSaveManager.OnInitializationSucess
-  name: OnInitializationSucess
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnInitializationSucess
-  commentId: F:Global.CloudSaveManager.OnInitializationSucess
-  fullName: CloudSaveManager.OnInitializationSucess
-  nameWithType: CloudSaveManager.OnInitializationSucess
-- uid: Global.CloudSaveManager.OnUploadFail
-  name: OnUploadFail
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnUploadFail
-  commentId: F:Global.CloudSaveManager.OnUploadFail
-  fullName: CloudSaveManager.OnUploadFail
-  nameWithType: CloudSaveManager.OnUploadFail
-- uid: Global.CloudSaveManager.OnUploadSuccess
-  name: OnUploadSuccess
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_OnUploadSuccess
-  commentId: F:Global.CloudSaveManager.OnUploadSuccess
-  fullName: CloudSaveManager.OnUploadSuccess
-  nameWithType: CloudSaveManager.OnUploadSuccess
-- uid: Global.CloudSaveManager.RegisterWithAuthSystem
-  name: RegisterWithAuthSystem()
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_RegisterWithAuthSystem
-  commentId: M:Global.CloudSaveManager.RegisterWithAuthSystem
-  fullName: CloudSaveManager.RegisterWithAuthSystem()
-  nameWithType: CloudSaveManager.RegisterWithAuthSystem()
-- uid: Global.CloudSaveManager.RegisterWithAuthSystem*
-  name: RegisterWithAuthSystem
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_RegisterWithAuthSystem_
-  commentId: Overload:Global.CloudSaveManager.RegisterWithAuthSystem
-  isSpec: "True"
-  fullName: CloudSaveManager.RegisterWithAuthSystem
-  nameWithType: CloudSaveManager.RegisterWithAuthSystem
-- uid: Global.CloudSaveManager.Start
-  name: Start()
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_Start
-  commentId: M:Global.CloudSaveManager.Start
-  fullName: CloudSaveManager.Start()
-  nameWithType: CloudSaveManager.Start()
-- uid: Global.CloudSaveManager.Start*
-  name: Start
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_Start_
-  commentId: Overload:Global.CloudSaveManager.Start
-  isSpec: "True"
-  fullName: CloudSaveManager.Start
-  nameWithType: CloudSaveManager.Start
-- uid: Global.CloudSaveManager.UploadToCloud(System.String,System.String)
-  name: UploadToCloud(string, string)
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_UploadToCloud_System_String_System_String_
-  commentId: M:Global.CloudSaveManager.UploadToCloud(System.String,System.String)
-  name.vb: UploadToCloud(String, String)
-  fullName: CloudSaveManager.UploadToCloud(string, string)
-  fullName.vb: CloudSaveManager.UploadToCloud(String, String)
-  nameWithType: CloudSaveManager.UploadToCloud(string, string)
-  nameWithType.vb: CloudSaveManager.UploadToCloud(String, String)
-- uid: Global.CloudSaveManager.UploadToCloud*
-  name: UploadToCloud
-  href: api/Global.CloudSaveManager.html#Global_CloudSaveManager_UploadToCloud_
-  commentId: Overload:Global.CloudSaveManager.UploadToCloud
-  isSpec: "True"
-  fullName: CloudSaveManager.UploadToCloud
-  nameWithType: CloudSaveManager.UploadToCloud
 - uid: Studio23.SS2.CloudSave.Core
   name: Studio23.SS2.CloudSave.Core
   href: api/Studio23.SS2.CloudSave.Core.html
   commentId: N:Studio23.SS2.CloudSave.Core
   fullName: Studio23.SS2.CloudSave.Core
   nameWithType: Studio23.SS2.CloudSave.Core
+- uid: Studio23.SS2.CloudSave.Core.API_States
+  name: API_States
+  href: api/Studio23.SS2.CloudSave.Core.API_States.html
+  commentId: T:Studio23.SS2.CloudSave.Core.API_States
+  fullName: Studio23.SS2.CloudSave.Core.API_States
+  nameWithType: API_States
+- uid: Studio23.SS2.CloudSave.Core.API_States.Failed
+  name: Failed
+  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Failed
+  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Failed
+  fullName: Studio23.SS2.CloudSave.Core.API_States.Failed
+  nameWithType: API_States.Failed
+- uid: Studio23.SS2.CloudSave.Core.API_States.None
+  name: None
+  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_None
+  commentId: F:Studio23.SS2.CloudSave.Core.API_States.None
+  fullName: Studio23.SS2.CloudSave.Core.API_States.None
+  nameWithType: API_States.None
+- uid: Studio23.SS2.CloudSave.Core.API_States.Process_Started
+  name: Process_Started
+  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Process_Started
+  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Process_Started
+  fullName: Studio23.SS2.CloudSave.Core.API_States.Process_Started
+  nameWithType: API_States.Process_Started
+- uid: Studio23.SS2.CloudSave.Core.API_States.Success
+  name: Success
+  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Success
+  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Success
+  fullName: Studio23.SS2.CloudSave.Core.API_States.Success
+  nameWithType: API_States.Success
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider
   name: AbstractCloudSaveProvider
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html
@@ -158,55 +72,6 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Initialize
   nameWithType: AbstractCloudSaveProvider.Initialize
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
-  name: OnDownloadFail
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadFail
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadFail
-  nameWithType: AbstractCloudSaveProvider.OnDownloadFail
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
-  name: OnDownloadSuccess
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnDownloadSuccess
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnDownloadSuccess
-  nameWithType: AbstractCloudSaveProvider.OnDownloadSuccess
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
-  name: OnInitializationFail
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationFail
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationFail
-  nameWithType: AbstractCloudSaveProvider.OnInitializationFail
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
-  name: OnInitializationSucess
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnInitializationSucess
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnInitializationSucess
-  nameWithType: AbstractCloudSaveProvider.OnInitializationSucess
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
-  name: OnUploadFail
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadFail
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadFail
-  nameWithType: AbstractCloudSaveProvider.OnUploadFail
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
-  name: OnUploadSuccess
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_OnUploadSuccess
-  commentId: F:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.OnUploadSuccess
-  nameWithType: AbstractCloudSaveProvider.OnUploadSuccess
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
-  name: Start()
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Start
-  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start()
-  nameWithType: AbstractCloudSaveProvider.Start()
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start*
-  name: Start
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_Start_
-  commentId: Overload:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
-  isSpec: "True"
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Start
-  nameWithType: AbstractCloudSaveProvider.Start
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String)
   name: UploadToCloud(string, string)
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_System_String_System_String_
@@ -223,3 +88,140 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud
   nameWithType: AbstractCloudSaveProvider.UploadToCloud
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager
+  name: CloudSaveManager
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html
+  commentId: T:Studio23.SS2.CloudSave.Core.CloudSaveManager
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager
+  nameWithType: CloudSaveManager
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud(System.String,System.String)
+  name: DownloadFromCloud(string, string)
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_DownloadFromCloud_System_String_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud(System.String,System.String)
+  name.vb: DownloadFromCloud(String, String)
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud(string, string)
+  fullName.vb: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud(String, String)
+  nameWithType: CloudSaveManager.DownloadFromCloud(string, string)
+  nameWithType.vb: CloudSaveManager.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud*
+  name: DownloadFromCloud
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_DownloadFromCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud
+  nameWithType: CloudSaveManager.DownloadFromCloud
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize
+  name: Initialize()
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Initialize
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize()
+  nameWithType: CloudSaveManager.Initialize()
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize*
+  name: Initialize
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Initialize_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Initialize
+  nameWithType: CloudSaveManager.Initialize
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Instance
+  name: Instance
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Instance
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.Instance
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Instance
+  nameWithType: CloudSaveManager.Instance
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadFail
+  name: OnDownloadFail
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnDownloadFail
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadFail
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadFail
+  nameWithType: CloudSaveManager.OnDownloadFail
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadSuccess
+  name: OnDownloadSuccess
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnDownloadSuccess
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadSuccess
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnDownloadSuccess
+  nameWithType: CloudSaveManager.OnDownloadSuccess
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationFail
+  name: OnInitializationFail
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnInitializationFail
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationFail
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationFail
+  nameWithType: CloudSaveManager.OnInitializationFail
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationSucess
+  name: OnInitializationSucess
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnInitializationSucess
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationSucess
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnInitializationSucess
+  nameWithType: CloudSaveManager.OnInitializationSucess
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadFail
+  name: OnUploadFail
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnUploadFail
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadFail
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadFail
+  nameWithType: CloudSaveManager.OnUploadFail
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadSuccess
+  name: OnUploadSuccess
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_OnUploadSuccess
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadSuccess
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadSuccess
+  nameWithType: CloudSaveManager.OnUploadSuccess
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
+  name: RegisterWithAuthSystem()
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_RegisterWithAuthSystem
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem()
+  nameWithType: CloudSaveManager.RegisterWithAuthSystem()
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem*
+  name: RegisterWithAuthSystem
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_RegisterWithAuthSystem_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
+  nameWithType: CloudSaveManager.RegisterWithAuthSystem
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
+  name: Start()
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Start
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start()
+  nameWithType: CloudSaveManager.Start()
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start*
+  name: Start
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Start_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
+  nameWithType: CloudSaveManager.Start
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud(System.String,System.String)
+  name: UploadToCloud(string, string)
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_UploadToCloud_System_String_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud(System.String,System.String)
+  name.vb: UploadToCloud(String, String)
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud(string, string)
+  fullName.vb: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud(String, String)
+  nameWithType: CloudSaveManager.UploadToCloud(string, string)
+  nameWithType.vb: CloudSaveManager.UploadToCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud*
+  name: UploadToCloud
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_UploadToCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud
+  nameWithType: CloudSaveManager.UploadToCloud
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
+  name: _downloadState
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__downloadState
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
+  nameWithType: CloudSaveManager._downloadState
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
+  name: _initializationState
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__initializationState
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
+  nameWithType: CloudSaveManager._initializationState
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
+  name: _uploadState
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__uploadState
+  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
+  nameWithType: CloudSaveManager._uploadState
