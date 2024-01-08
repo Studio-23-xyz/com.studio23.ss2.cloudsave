@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [v0.0.6] - 2024-1-8
+
+- Removed Dependency from AuthSystem
+- Code Refactored
+- Dummy Authprovider Added
+
 ## [v0.0.4] - 2024-1-3
 
 - Added a cloud Save Manager

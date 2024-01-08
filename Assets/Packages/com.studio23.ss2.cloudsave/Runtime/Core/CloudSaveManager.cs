@@ -1,17 +1,14 @@
-using System.Runtime.CompilerServices;
 using Cysharp.Threading.Tasks;
-using Studio23.SS2.AuthSystem.Core;
+using Studio23.SS2.CloudSave.Data;
 using UnityEngine;
 using UnityEngine.Events;
 
-[assembly: InternalsVisibleTo("com.studio23.ss2.savesystem.xboxcorepc")]
 namespace Studio23.SS2.CloudSave.Core
 {
     public class CloudSaveManager : MonoBehaviour
     {
         public static CloudSaveManager Instance;
 
-        [SerializeField] private bool _registerOnStart = true;
         [SerializeField] private AbstractCloudSaveProvider _provider;
 
         public UnityEvent OnInitializationSucess;
@@ -33,29 +30,7 @@ namespace Studio23.SS2.CloudSave.Core
             Instance = this;
         }
 
-        /// <summary>
-        /// Calls Registration on start if it's true
-        /// </summary>
-        public virtual void Start()
-        {
-            if (_registerOnStart)
-            {
-                RegisterWithAuthSystem();
-            }
-        }
 
-        /// <summary>
-        /// Registers to auth system however it can be overriden
-        /// </summary>
-        public virtual void RegisterWithAuthSystem()
-        {
-            if (AuthenticationManager.instance == null)
-            {
-                Debug.Log("AuthManager wasn't initialized");
-                return;
-            }
-            AuthenticationManager.instance.OnAuthSuccess.AddListener(Initialize);
-        }
 
         /// <summary>
         /// This is responsible for initialization of platform cloud save feature if needed
@@ -150,13 +125,6 @@ namespace Studio23.SS2.CloudSave.Core
         }
     }
 
-    public enum API_States
-    {
-        None,
-        Process_Started,
-        Success,
-        Failed
-    }
 
 }
 
