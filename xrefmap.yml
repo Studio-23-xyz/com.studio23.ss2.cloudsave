@@ -7,36 +7,6 @@ references:
   commentId: N:Studio23.SS2.CloudSave.Core
   fullName: Studio23.SS2.CloudSave.Core
   nameWithType: Studio23.SS2.CloudSave.Core
-- uid: Studio23.SS2.CloudSave.Core.API_States
-  name: API_States
-  href: api/Studio23.SS2.CloudSave.Core.API_States.html
-  commentId: T:Studio23.SS2.CloudSave.Core.API_States
-  fullName: Studio23.SS2.CloudSave.Core.API_States
-  nameWithType: API_States
-- uid: Studio23.SS2.CloudSave.Core.API_States.Failed
-  name: Failed
-  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Failed
-  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Failed
-  fullName: Studio23.SS2.CloudSave.Core.API_States.Failed
-  nameWithType: API_States.Failed
-- uid: Studio23.SS2.CloudSave.Core.API_States.None
-  name: None
-  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_None
-  commentId: F:Studio23.SS2.CloudSave.Core.API_States.None
-  fullName: Studio23.SS2.CloudSave.Core.API_States.None
-  nameWithType: API_States.None
-- uid: Studio23.SS2.CloudSave.Core.API_States.Process_Started
-  name: Process_Started
-  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Process_Started
-  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Process_Started
-  fullName: Studio23.SS2.CloudSave.Core.API_States.Process_Started
-  nameWithType: API_States.Process_Started
-- uid: Studio23.SS2.CloudSave.Core.API_States.Success
-  name: Success
-  href: api/Studio23.SS2.CloudSave.Core.API_States.html#Studio23_SS2_CloudSave_Core_API_States_Success
-  commentId: F:Studio23.SS2.CloudSave.Core.API_States.Success
-  fullName: Studio23.SS2.CloudSave.Core.API_States.Success
-  nameWithType: API_States.Success
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider
   name: AbstractCloudSaveProvider
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html
@@ -165,32 +135,6 @@ references:
   commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadSuccess
   fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.OnUploadSuccess
   nameWithType: CloudSaveManager.OnUploadSuccess
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
-  name: RegisterWithAuthSystem()
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_RegisterWithAuthSystem
-  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem()
-  nameWithType: CloudSaveManager.RegisterWithAuthSystem()
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem*
-  name: RegisterWithAuthSystem
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_RegisterWithAuthSystem_
-  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
-  isSpec: "True"
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.RegisterWithAuthSystem
-  nameWithType: CloudSaveManager.RegisterWithAuthSystem
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
-  name: Start()
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Start
-  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start()
-  nameWithType: CloudSaveManager.Start()
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start*
-  name: Start
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_Start_
-  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
-  isSpec: "True"
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.Start
-  nameWithType: CloudSaveManager.Start
 - uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud(System.String,System.String)
   name: UploadToCloud(string, string)
   href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_UploadToCloud_System_String_System_String_
@@ -225,3 +169,90 @@ references:
   commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
   fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
   nameWithType: CloudSaveManager._uploadState
+- uid: Studio23.SS2.CloudSave.Data
+  name: Studio23.SS2.CloudSave.Data
+  href: api/Studio23.SS2.CloudSave.Data.html
+  commentId: N:Studio23.SS2.CloudSave.Data
+  fullName: Studio23.SS2.CloudSave.Data
+  nameWithType: Studio23.SS2.CloudSave.Data
+- uid: Studio23.SS2.CloudSave.Data.API_States
+  name: API_States
+  href: api/Studio23.SS2.CloudSave.Data.API_States.html
+  commentId: T:Studio23.SS2.CloudSave.Data.API_States
+  fullName: Studio23.SS2.CloudSave.Data.API_States
+  nameWithType: API_States
+- uid: Studio23.SS2.CloudSave.Data.API_States.Failed
+  name: Failed
+  href: api/Studio23.SS2.CloudSave.Data.API_States.html#Studio23_SS2_CloudSave_Data_API_States_Failed
+  commentId: F:Studio23.SS2.CloudSave.Data.API_States.Failed
+  fullName: Studio23.SS2.CloudSave.Data.API_States.Failed
+  nameWithType: API_States.Failed
+- uid: Studio23.SS2.CloudSave.Data.API_States.None
+  name: None
+  href: api/Studio23.SS2.CloudSave.Data.API_States.html#Studio23_SS2_CloudSave_Data_API_States_None
+  commentId: F:Studio23.SS2.CloudSave.Data.API_States.None
+  fullName: Studio23.SS2.CloudSave.Data.API_States.None
+  nameWithType: API_States.None
+- uid: Studio23.SS2.CloudSave.Data.API_States.Process_Started
+  name: Process_Started
+  href: api/Studio23.SS2.CloudSave.Data.API_States.html#Studio23_SS2_CloudSave_Data_API_States_Process_Started
+  commentId: F:Studio23.SS2.CloudSave.Data.API_States.Process_Started
+  fullName: Studio23.SS2.CloudSave.Data.API_States.Process_Started
+  nameWithType: API_States.Process_Started
+- uid: Studio23.SS2.CloudSave.Data.API_States.Success
+  name: Success
+  href: api/Studio23.SS2.CloudSave.Data.API_States.html#Studio23_SS2_CloudSave_Data_API_States_Success
+  commentId: F:Studio23.SS2.CloudSave.Data.API_States.Success
+  fullName: Studio23.SS2.CloudSave.Data.API_States.Success
+  nameWithType: API_States.Success
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider
+  name: DummyProvider
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html
+  commentId: T:Studio23.SS2.CloudSave.Data.DummyProvider
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider
+  nameWithType: DummyProvider
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String,System.String)
+  name: DownloadFromCloud(string, string)
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_DownloadFromCloud_System_String_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String,System.String)
+  name.vb: DownloadFromCloud(String, String)
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(string, string)
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(String, String)
+  nameWithType: DummyProvider.DownloadFromCloud(string, string)
+  nameWithType.vb: DummyProvider.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud*
+  name: DownloadFromCloud
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_DownloadFromCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud
+  nameWithType: DummyProvider.DownloadFromCloud
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.Initialize
+  name: Initialize()
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_Initialize
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.Initialize
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.Initialize()
+  nameWithType: DummyProvider.Initialize()
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.Initialize*
+  name: Initialize
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_Initialize_
+  commentId: Overload:Studio23.SS2.CloudSave.Data.DummyProvider.Initialize
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.Initialize
+  nameWithType: DummyProvider.Initialize
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.String)
+  name: UploadToCloud(string, string)
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_UploadToCloud_System_String_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.String)
+  name.vb: UploadToCloud(String, String)
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(string, string)
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(String, String)
+  nameWithType: DummyProvider.UploadToCloud(string, string)
+  nameWithType.vb: DummyProvider.UploadToCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud*
+  name: UploadToCloud
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_UploadToCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud
+  nameWithType: DummyProvider.UploadToCloud
