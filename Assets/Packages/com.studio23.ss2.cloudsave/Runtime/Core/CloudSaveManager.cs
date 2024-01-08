@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using Studio23.SS2.CloudSave.Data;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -48,6 +49,7 @@ namespace Studio23.SS2.CloudSave.Core
 
             _provider.Initialize();
 
+            elapsedTime = 0;
             while (_initializationState == API_States.Process_Started && elapsedTime < waitTime)
             {
                 await UniTask.Yield();
@@ -80,10 +82,11 @@ namespace Studio23.SS2.CloudSave.Core
         {
             _provider.UploadToCloud(key, filepath);
 
-            while (_uploadState == API_States.Process_Started)
+            elapsedTime = 0;
+            while (_uploadState == API_States.Process_Started && elapsedTime < waitTime)
             {
-                await UniTask.Yield();
-                await UniTask.NextFrame();
+                await UniTask.Delay(TimeSpan.FromSeconds(0.5), ignoreTimeScale: false);
+                elapsedTime += Time.deltaTime;
             }
 
             if (_uploadState == API_States.Success)
@@ -106,10 +109,11 @@ namespace Studio23.SS2.CloudSave.Core
         {
             _provider.DownloadFromCloud(key, downloadLocation);
 
-            while (_downloadState == API_States.Process_Started)
+            elapsedTime = 0;
+            while (_downloadState == API_States.Process_Started && elapsedTime < waitTime)
             {
-                await UniTask.Yield();
-                await UniTask.NextFrame();
+                await UniTask.Delay(TimeSpan.FromSeconds(0.5), ignoreTimeScale: false);
+                elapsedTime += Time.deltaTime;
             }
 
             if (_downloadState == API_States.Success)
