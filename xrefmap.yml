@@ -13,15 +13,15 @@ references:
   commentId: T:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider
   nameWithType: AbstractCloudSaveProvider
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String)
-  name: DownloadFromCloud(string, string)
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_DownloadFromCloud_System_String_System_String_
-  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String)
-  name.vb: DownloadFromCloud(String, String)
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(string, string)
-  fullName.vb: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(String, String)
-  nameWithType: AbstractCloudSaveProvider.DownloadFromCloud(string, string)
-  nameWithType.vb: AbstractCloudSaveProvider.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(System.String)
+  name: DownloadFromCloud(string)
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_DownloadFromCloud_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(System.String)
+  name.vb: DownloadFromCloud(String)
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(string)
+  fullName.vb: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud(String)
+  nameWithType: AbstractCloudSaveProvider.DownloadFromCloud(string)
+  nameWithType.vb: AbstractCloudSaveProvider.DownloadFromCloud(String)
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.DownloadFromCloud*
   name: DownloadFromCloud
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_DownloadFromCloud_
@@ -42,15 +42,15 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.Initialize
   nameWithType: AbstractCloudSaveProvider.Initialize
-- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String)
-  name: UploadToCloud(string, string)
-  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_System_String_System_String_
-  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String)
-  name.vb: UploadToCloud(String, String)
-  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(string, string)
-  fullName.vb: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(String, String)
-  nameWithType: AbstractCloudSaveProvider.UploadToCloud(string, string)
-  nameWithType.vb: AbstractCloudSaveProvider.UploadToCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.Byte[])
+  name: UploadToCloud(string, byte[])
+  href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_System_String_System_Byte___
+  commentId: M:Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(System.String,System.Byte[])
+  name.vb: UploadToCloud(String, Byte())
+  fullName: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(string, byte[])
+  fullName.vb: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud(String, Byte())
+  nameWithType: AbstractCloudSaveProvider.UploadToCloud(string, byte[])
+  nameWithType.vb: AbstractCloudSaveProvider.UploadToCloud(String, Byte())
 - uid: Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.UploadToCloud*
   name: UploadToCloud
   href: api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Core_AbstractCloudSaveProvider_UploadToCloud_
@@ -151,24 +151,6 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.UploadToCloud
   nameWithType: CloudSaveManager.UploadToCloud
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
-  name: _downloadState
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__downloadState
-  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._downloadState
-  nameWithType: CloudSaveManager._downloadState
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
-  name: _initializationState
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__initializationState
-  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._initializationState
-  nameWithType: CloudSaveManager._initializationState
-- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
-  name: _uploadState
-  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager__uploadState
-  commentId: F:Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
-  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager._uploadState
-  nameWithType: CloudSaveManager._uploadState
 - uid: Studio23.SS2.CloudSave.Data
   name: Studio23.SS2.CloudSave.Data
   href: api/Studio23.SS2.CloudSave.Data.html
@@ -211,15 +193,15 @@ references:
   commentId: T:Studio23.SS2.CloudSave.Data.DummyProvider
   fullName: Studio23.SS2.CloudSave.Data.DummyProvider
   nameWithType: DummyProvider
-- uid: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String,System.String)
-  name: DownloadFromCloud(string, string)
-  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_DownloadFromCloud_System_String_System_String_
-  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String,System.String)
-  name.vb: DownloadFromCloud(String, String)
-  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(string, string)
-  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(String, String)
-  nameWithType: DummyProvider.DownloadFromCloud(string, string)
-  nameWithType.vb: DummyProvider.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String)
+  name: DownloadFromCloud(string)
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_DownloadFromCloud_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(System.String)
+  name.vb: DownloadFromCloud(String)
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(string)
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud(String)
+  nameWithType: DummyProvider.DownloadFromCloud(string)
+  nameWithType.vb: DummyProvider.DownloadFromCloud(String)
 - uid: Studio23.SS2.CloudSave.Data.DummyProvider.DownloadFromCloud*
   name: DownloadFromCloud
   href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_DownloadFromCloud_
@@ -240,15 +222,15 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Data.DummyProvider.Initialize
   nameWithType: DummyProvider.Initialize
-- uid: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.String)
-  name: UploadToCloud(string, string)
-  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_UploadToCloud_System_String_System_String_
-  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.String)
-  name.vb: UploadToCloud(String, String)
-  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(string, string)
-  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(String, String)
-  nameWithType: DummyProvider.UploadToCloud(string, string)
-  nameWithType.vb: DummyProvider.UploadToCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.Byte[])
+  name: UploadToCloud(string, byte[])
+  href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_UploadToCloud_System_String_System_Byte___
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(System.String,System.Byte[])
+  name.vb: UploadToCloud(String, Byte())
+  fullName: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(string, byte[])
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud(String, Byte())
+  nameWithType: DummyProvider.UploadToCloud(string, byte[])
+  nameWithType.vb: DummyProvider.UploadToCloud(String, Byte())
 - uid: Studio23.SS2.CloudSave.Data.DummyProvider.UploadToCloud*
   name: UploadToCloud
   href: api/Studio23.SS2.CloudSave.Data.DummyProvider.html#Studio23_SS2_CloudSave_Data_DummyProvider_UploadToCloud_
