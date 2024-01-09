@@ -1,6 +1,5 @@
 using Cysharp.Threading.Tasks;
-using Studio23.SS2.CloudSave.Data;
-using System;
+using System.IO;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -19,16 +18,10 @@ namespace Studio23.SS2.CloudSave.Core
         public UnityEvent OnDownloadSuccess;
         public UnityEvent OnDownloadFail;
 
-
-        [SerializeField] public API_States _initializationState;
-        [SerializeField] public API_States _downloadState;
-        [SerializeField] public API_States _uploadState;
-        [SerializeField] float waitTime = 4f;
-        [SerializeField] float elapsedTime = 0f;
-
         void Awake()
         {
             Instance = this;
+            _provider = GetComponent<AbstractCloudSaveProvider>();
         }
 
 
@@ -38,31 +31,17 @@ namespace Studio23.SS2.CloudSave.Core
         /// </summary>
         public async void Initialize()
         {
-            _provider = GetComponent<AbstractCloudSaveProvider>();
+
             if (_provider == null)
             {
                 Debug.LogError("Cloud Provider not found. Cloud Save will not work!");
                 OnInitializationFail?.Invoke();
-                _initializationState = API_States.Failed;
                 return;
             }
 
-            _provider.Initialize();
+            int result = await _provider.Initialize();
 
-            elapsedTime = 0;
-            while (_initializationState == API_States.Process_Started && elapsedTime < waitTime)
-            {
-                await UniTask.Yield();
-                await UniTask.NextFrame();
-                elapsedTime += Time.deltaTime;
-            }
-            
-            if (_initializationState == API_States.Process_Started)
-            {
-                Debug.LogWarning("Initialization took too long.");
-            }
-
-            if (_initializationState == API_States.Success)
+            if (result == 0)
             {
                 OnInitializationSucess?.Invoke();
             }
@@ -78,23 +57,17 @@ namespace Studio23.SS2.CloudSave.Core
         /// </summary>
         /// <param name="key"></param>
         /// <param name="filepath"></param>
-        public async void UploadToCloud(string key, string filepath)
+        public async UniTask UploadToCloud(string key, string filepath)
         {
-            _provider.UploadToCloud(key, filepath);
+            byte[] data = await File.ReadAllBytesAsync(filepath);
+            int result = await _provider.UploadToCloud(key, data);
 
-            elapsedTime = 0;
-            while (_uploadState == API_States.Process_Started && elapsedTime < waitTime)
-            {
-                await UniTask.Delay(TimeSpan.FromSeconds(0.5), ignoreTimeScale: false);
-                elapsedTime += Time.deltaTime;
-            }
 
-            if (_uploadState == API_States.Success)
+            if (result == 0)
             {
                 OnUploadSuccess?.Invoke();
             }
-
-            if (_uploadState == API_States.Failed)
+            else
             {
                 OnUploadFail?.Invoke();
             }
@@ -105,26 +78,20 @@ namespace Studio23.SS2.CloudSave.Core
         /// </summary>
         /// <param name="key"></param>
         /// <param name="downloadLocation"></param>
-        public async void DownloadFromCloud(string key, string downloadLocation)
+        public async UniTask DownloadFromCloud(string key, string downloadLocation)
         {
-            _provider.DownloadFromCloud(key, downloadLocation);
-
-            elapsedTime = 0;
-            while (_downloadState == API_States.Process_Started && elapsedTime < waitTime)
+            if (_provider == null)
             {
-                await UniTask.Delay(TimeSpan.FromSeconds(0.5), ignoreTimeScale: false);
-                elapsedTime += Time.deltaTime;
+                Debug.Log("Provider can't be null");
+                return;
             }
 
-            if (_downloadState == API_States.Success)
-            {
-                OnDownloadSuccess?.Invoke();
-            }
+            byte[] data = await _provider.DownloadFromCloud(key);
 
-            if (_downloadState == API_States.Failed)
-            {
-                OnDownloadFail?.Invoke();
-            }
+            await File.WriteAllBytesAsync(downloadLocation, data);
+
+            OnDownloadSuccess?.Invoke();
+
 
         }
     }

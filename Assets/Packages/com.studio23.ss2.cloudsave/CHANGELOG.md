@@ -1,6 +1,10 @@
 # Changelog
 
 
+## [v1.0.0] - 2024-1-9
+
+- Cloud Save Calls are now based on Async methods
+
 ## [v0.0.6] - 2024-1-8
 
 - Removed Dependency from AuthSystem

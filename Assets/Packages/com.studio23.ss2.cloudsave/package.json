@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.cloudsave",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "displayName": "Cloud Save Core",
   "description": "This system will be used to implement Cloud Save from diffrent platforms",
   "unity": "2022.3",
