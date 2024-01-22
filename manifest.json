@@ -15,20 +15,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.yml",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html"
+          "relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.yml",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveProviderFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html"
+          "relative_path": "api/Studio23.SS2.CloudSave.Core.CloudSaveProviderFactory.html"
         }
       },
       "version": ""
@@ -45,20 +45,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.CloudSave.Data.API_States.yml",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.CloudSave.Data.API_States.html"
+          "relative_path": "api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.CloudSave.Data.DummyProvider.yml",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.CloudSave.Data.DummyProvider.html"
+          "relative_path": "api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Data.PlatformProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.CloudSave.Data.PlatformProvider.html"
         }
       },
       "version": ""
@@ -69,6 +79,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.CloudSave.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Editor.DefaultCloudProviderEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.CloudSave.Editor.DefaultCloudProviderEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.CloudSave.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.CloudSave.Editor.html"
         }
       },
       "version": ""

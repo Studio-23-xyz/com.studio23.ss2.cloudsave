@@ -1,68 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Core.AbstractCloudSaveProvider.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Core.CloudSaveProviderFactory.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Core.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.API_States.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.DummyProvider.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.PlatformProvider.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Data.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Editor.DefaultCloudProviderEditor.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/Studio23.SS2.CloudSave.Editor.html</loc>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/api/index.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/changelog/CHANGELOG.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/index.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/license/LICENSE.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.cloudsave/manual/index.html</loc>
-    <lastmod>2024-01-11T09:58:27+00:00</lastmod>
+    <lastmod>2024-01-22T01:49:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
