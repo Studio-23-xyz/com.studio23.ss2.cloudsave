@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.0.0] - 2024-1-22
+
+- Cloud Save provider is now based on Factory Pattern
+- Editor Script added to make developers life easy
+- Platform Selection happen automatically based on Popular Scripting Symboles
+- Added a dummyProvider for Debug Purposes
+
 
 ## [v1.0.0] - 2024-1-9
 

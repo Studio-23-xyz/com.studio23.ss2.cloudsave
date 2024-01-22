@@ -1,10 +1,14 @@
+
+
 namespace Studio23.SS2.CloudSave.Data
 {
-    public enum API_States
+    public enum PlatformProvider 
     {
-        None,
-        Process_Started,
-        Success,
-        Failed
+        Default,
+        Steam,
+        XBoxCore,
+        XBoxPC,
+        PlayStation,
+        Nintendo
     }
 }
