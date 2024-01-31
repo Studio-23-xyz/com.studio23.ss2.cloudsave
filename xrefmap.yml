@@ -13,6 +13,22 @@ references:
   commentId: T:Studio23.SS2.CloudSave.Core.CloudSaveManager
   fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager
   nameWithType: CloudSaveManager
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud(System.String)
+  name: DeleteContainerFromCloud(string)
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_DeleteContainerFromCloud_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud(System.String)
+  name.vb: DeleteContainerFromCloud(String)
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud(string)
+  fullName.vb: Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud(String)
+  nameWithType: CloudSaveManager.DeleteContainerFromCloud(string)
+  nameWithType.vb: CloudSaveManager.DeleteContainerFromCloud(String)
+- uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud*
+  name: DeleteContainerFromCloud
+  href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_DeleteContainerFromCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Core.CloudSaveManager.DeleteContainerFromCloud
+  nameWithType: CloudSaveManager.DeleteContainerFromCloud
 - uid: Studio23.SS2.CloudSave.Core.CloudSaveManager.DownloadFromCloud(System.String,System.String,System.String)
   name: DownloadFromCloud(string, string, string)
   href: api/Studio23.SS2.CloudSave.Core.CloudSaveManager.html#Studio23_SS2_CloudSave_Core_CloudSaveManager_DownloadFromCloud_System_String_System_String_System_String_
@@ -118,6 +134,22 @@ references:
   commentId: T:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider
   fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider
   nameWithType: AbstractCloudSaveProvider
+- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud(System.String)
+  name: DeleteSlotFromCloud(string)
+  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_DeleteSlotFromCloud_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud(System.String)
+  name.vb: DeleteSlotFromCloud(String)
+  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud(string)
+  fullName.vb: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud(String)
+  nameWithType: AbstractCloudSaveProvider.DeleteSlotFromCloud(string)
+  nameWithType.vb: AbstractCloudSaveProvider.DeleteSlotFromCloud(String)
+- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud*
+  name: DeleteSlotFromCloud
+  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_DeleteSlotFromCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DeleteSlotFromCloud
+  nameWithType: AbstractCloudSaveProvider.DeleteSlotFromCloud
 - uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String)
   name: DownloadFromCloud(string, string)
   href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_DownloadFromCloud_System_String_System_String_
@@ -127,6 +159,15 @@ references:
   fullName.vb: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(String, String)
   nameWithType: AbstractCloudSaveProvider.DownloadFromCloud(string, string)
   nameWithType.vb: AbstractCloudSaveProvider.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String[])
+  name: DownloadFromCloud(string, string[])
+  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_DownloadFromCloud_System_String_System_String___
+  commentId: M:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(System.String,System.String[])
+  name.vb: DownloadFromCloud(String, String())
+  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(string, string[])
+  fullName.vb: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud(String, String())
+  nameWithType: AbstractCloudSaveProvider.DownloadFromCloud(string, string[])
+  nameWithType.vb: AbstractCloudSaveProvider.DownloadFromCloud(String, String())
 - uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.DownloadFromCloud*
   name: DownloadFromCloud
   href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_DownloadFromCloud_
@@ -188,6 +229,22 @@ references:
   commentId: T:Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider
   fullName: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider
   nameWithType: DummyCloudSaveProvider
+- uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud(System.String)
+  name: DeleteSlotFromCloud(string)
+  href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_DummyCloudSaveProvider_DeleteSlotFromCloud_System_String_
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud(System.String)
+  name.vb: DeleteSlotFromCloud(String)
+  fullName: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud(string)
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud(String)
+  nameWithType: DummyCloudSaveProvider.DeleteSlotFromCloud(string)
+  nameWithType.vb: DummyCloudSaveProvider.DeleteSlotFromCloud(String)
+- uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud*
+  name: DeleteSlotFromCloud
+  href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_DummyCloudSaveProvider_DeleteSlotFromCloud_
+  commentId: Overload:Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud
+  isSpec: "True"
+  fullName: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DeleteSlotFromCloud
+  nameWithType: DummyCloudSaveProvider.DeleteSlotFromCloud
 - uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(System.String,System.String)
   name: DownloadFromCloud(string, string)
   href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_DummyCloudSaveProvider_DownloadFromCloud_System_String_System_String_
@@ -197,6 +254,15 @@ references:
   fullName.vb: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(String, String)
   nameWithType: DummyCloudSaveProvider.DownloadFromCloud(string, string)
   nameWithType.vb: DummyCloudSaveProvider.DownloadFromCloud(String, String)
+- uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(System.String,System.String[])
+  name: DownloadFromCloud(string, string[])
+  href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_DummyCloudSaveProvider_DownloadFromCloud_System_String_System_String___
+  commentId: M:Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(System.String,System.String[])
+  name.vb: DownloadFromCloud(String, String())
+  fullName: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(string, string[])
+  fullName.vb: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud(String, String())
+  nameWithType: DummyCloudSaveProvider.DownloadFromCloud(string, string[])
+  nameWithType.vb: DummyCloudSaveProvider.DownloadFromCloud(String, String())
 - uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.DownloadFromCloud*
   name: DownloadFromCloud
   href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_DummyCloudSaveProvider_DownloadFromCloud_
