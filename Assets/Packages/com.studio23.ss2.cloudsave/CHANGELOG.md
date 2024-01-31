@@ -1,5 +1,10 @@
 # Changelog
 
+## [v2.0.1] - 2024-1-31
+
+- Documentation Update
+- Added a delete from cloud method
+
 ## [v2.0.0] - 2024-1-22
 
 - Cloud Save provider is now based on Factory Pattern

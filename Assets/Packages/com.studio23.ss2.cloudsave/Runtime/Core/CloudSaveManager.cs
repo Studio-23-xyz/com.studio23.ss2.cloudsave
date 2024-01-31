@@ -131,6 +131,18 @@ namespace Studio23.SS2.CloudSave.Core
 
         }
 
+        
+        public async UniTask DeleteContainerFromCloud(string slotName)
+        {
+            if (_provider == null)
+            {
+                Debug.Log("Provider can't be null");
+                return;
+            }
+
+            await _provider.DeleteSlotFromCloud(slotName);
+        }
+
 
     }
 
