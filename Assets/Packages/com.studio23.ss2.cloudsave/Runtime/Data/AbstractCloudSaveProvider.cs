@@ -7,22 +7,7 @@ namespace Studio23.SS2.CloudSave.Data
 {
     public abstract class AbstractCloudSaveProvider : ScriptableObject
     {
-        [SerializeField]
-        protected PlatformProvider _platformProvider;
-
-        public PlatformProvider PlatformProvider
-        {
-            get
-            {
-                return _platformProvider;
-            }
-
-            set
-            {
-                _platformProvider = value;
-            }
-
-        }
+       
         /// <summary>
         /// This is responsible for initialization of platform cloud save feature if needed
         /// </summary>

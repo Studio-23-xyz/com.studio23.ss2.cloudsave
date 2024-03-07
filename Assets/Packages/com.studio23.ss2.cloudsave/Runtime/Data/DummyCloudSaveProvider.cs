@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Studio23.SS2.CloudSave.Data
 {
-    [CreateAssetMenu(fileName = "Dummy Cloud Save Provider", menuName = "Studio-23/SaveSystem/Cloud Provider/Dummy Provider", order = 1)]
+
     public class DummyCloudSaveProvider : AbstractCloudSaveProvider
     {
 

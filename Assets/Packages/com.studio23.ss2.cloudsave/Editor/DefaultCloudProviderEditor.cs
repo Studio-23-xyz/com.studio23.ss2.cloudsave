@@ -22,7 +22,7 @@ namespace Studio23.SS2.CloudSave.Editor
             }
 
             // Create the ScriptableObject asset in the resource folder
-            string assetPath = resourceFolderPath + "/DefaultProvider.asset";
+            string assetPath = resourceFolderPath + "/DummyCloudSaveProvider.asset";
             AssetDatabase.CreateAsset(providerSettings, assetPath);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

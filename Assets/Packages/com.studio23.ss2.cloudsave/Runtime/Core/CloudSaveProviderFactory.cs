@@ -1,34 +1,31 @@
 using Studio23.SS2.CloudSave.Data;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Studio23.SS2.CloudSave.Core
 {
     public class CloudSaveProviderFactory : MonoBehaviour
     {
-        private Dictionary<PlatformProvider, AbstractCloudSaveProvider> _providers;
+        private  AbstractCloudSaveProvider _dummyProvider;
+        private  AbstractCloudSaveProvider _provider;
 
 
         internal void Initialize()
         {
-            _providers=new Dictionary<PlatformProvider, AbstractCloudSaveProvider>();
+
             LoadProvidersFromResources();
         }
 
-        internal void LoadProvidersFromResources()
+        private void LoadProvidersFromResources()
         {
-           AbstractCloudSaveProvider[] providers= Resources.LoadAll<AbstractCloudSaveProvider>("SaveSystem/CloudProviders");
-            foreach (AbstractCloudSaveProvider provider in providers)
-            {
-                _providers[provider.PlatformProvider]= provider;
-            }
+           _dummyProvider= Resources.Load<AbstractCloudSaveProvider>("SaveSystem/CloudProviders/DummyCloudSaveProvider");
+           _provider = Resources.Load<AbstractCloudSaveProvider>("SaveSystem/CloudProviders/CloudSaveProvider");
 
         }
 
 
-        internal AbstractCloudSaveProvider GetProvider(PlatformProvider provider)
+        internal AbstractCloudSaveProvider GetProvider()
         {
-            return _providers[provider];
+            return _provider!= null ? _provider : _dummyProvider;
         }
 
 

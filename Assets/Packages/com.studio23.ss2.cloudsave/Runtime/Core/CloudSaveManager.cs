@@ -11,30 +11,6 @@ namespace Studio23.SS2.CloudSave.Core
     {
         public static CloudSaveManager Instance;
 
-        [SerializeField]
-        private PlatformProvider _platformProvider;
-
-        private PlatformProvider PlatformProvider
-        {
-            get
-            {
-
-#if UNITY_GAMECORE
-            _platformProvider = PlatformProvider.XBoxCore;
-#endif
-
-#if MICROSOFT_GAME_CORE
-            _platformProvider = PlatformProvider.XBoxPC;
-#endif
-
-#if STEAMWORKS_ENABLED
-            _platformProvider = PlatformProvider.Steam;
-#endif
-
-                return _platformProvider;
-            }
-        }
-
         private CloudSaveProviderFactory _factory;
 
         [SerializeField] private AbstractCloudSaveProvider _provider;
@@ -54,7 +30,7 @@ namespace Studio23.SS2.CloudSave.Core
             _factory = GetComponent<CloudSaveProviderFactory>();
             _factory.Initialize();
 
-            _provider = _factory.GetProvider(PlatformProvider);
+            _provider = _factory.GetProvider();
         }
 
 
