@@ -188,19 +188,6 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.Initialize
   nameWithType: AbstractCloudSaveProvider.Initialize
-- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider
-  name: PlatformProvider
-  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_PlatformProvider
-  commentId: P:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider
-  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider
-  nameWithType: AbstractCloudSaveProvider.PlatformProvider
-- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider*
-  name: PlatformProvider
-  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_PlatformProvider_
-  commentId: Overload:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider
-  isSpec: "True"
-  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.PlatformProvider
-  nameWithType: AbstractCloudSaveProvider.PlatformProvider
 - uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.UploadToCloud(System.String,System.String,System.Byte[])
   name: UploadToCloud(string, string, byte[])
   href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider_UploadToCloud_System_String_System_String_System_Byte___
@@ -217,12 +204,6 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.UploadToCloud
   nameWithType: AbstractCloudSaveProvider.UploadToCloud
-- uid: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider._platformProvider
-  name: _platformProvider
-  href: api/Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider.html#Studio23_SS2_CloudSave_Data_AbstractCloudSaveProvider__platformProvider
-  commentId: F:Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider._platformProvider
-  fullName: Studio23.SS2.CloudSave.Data.AbstractCloudSaveProvider._platformProvider
-  nameWithType: AbstractCloudSaveProvider._platformProvider
 - uid: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider
   name: DummyCloudSaveProvider
   href: api/Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.html
@@ -299,48 +280,6 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.CloudSave.Data.DummyCloudSaveProvider.UploadToCloud
   nameWithType: DummyCloudSaveProvider.UploadToCloud
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider
-  name: PlatformProvider
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html
-  commentId: T:Studio23.SS2.CloudSave.Data.PlatformProvider
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider
-  nameWithType: PlatformProvider
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.Default
-  name: Default
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_Default
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.Default
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.Default
-  nameWithType: PlatformProvider.Default
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.Nintendo
-  name: Nintendo
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_Nintendo
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.Nintendo
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.Nintendo
-  nameWithType: PlatformProvider.Nintendo
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.PlayStation
-  name: PlayStation
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_PlayStation
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.PlayStation
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.PlayStation
-  nameWithType: PlatformProvider.PlayStation
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.Steam
-  name: Steam
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_Steam
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.Steam
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.Steam
-  nameWithType: PlatformProvider.Steam
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxCore
-  name: XBoxCore
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_XBoxCore
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxCore
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxCore
-  nameWithType: PlatformProvider.XBoxCore
-- uid: Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxPC
-  name: XBoxPC
-  href: api/Studio23.SS2.CloudSave.Data.PlatformProvider.html#Studio23_SS2_CloudSave_Data_PlatformProvider_XBoxPC
-  commentId: F:Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxPC
-  fullName: Studio23.SS2.CloudSave.Data.PlatformProvider.XBoxPC
-  nameWithType: PlatformProvider.XBoxPC
 - uid: Studio23.SS2.CloudSave.Editor
   name: Studio23.SS2.CloudSave.Editor
   href: api/Studio23.SS2.CloudSave.Editor.html
