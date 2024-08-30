@@ -44,8 +44,7 @@ namespace Studio23.SS2.CloudSave.Data
         /// </summary>
         /// <param name="slotName">Name of the slot</param>
         /// <returns>Status code as int</returns>
-        protected internal abstract UniTask<int> DeleteSlotFromCloud(string slotName);
-
+        protected internal abstract UniTask<int> DeleteSlotFromCloud(string slotName,string metafileName,string backupFileName);
 
 
     }

@@ -34,7 +34,7 @@ namespace Studio23.SS2.CloudSave.Data
             return new UniTask<Dictionary<string, byte[]>>();
         }
 
-        protected internal override UniTask<int> DeleteSlotFromCloud(string slotName)
+        protected internal override UniTask<int> DeleteSlotFromCloud(string slotName, string metafileName, string backupFileName)
         {
             Debug.Log($"<color=yellow>Dummy Provider</color> :\n<color=white>{slotName}</color> deleted from the cloud");
             return new UniTask<int>(0);

@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.0.3] - 2024-08-30
+
+- Delete Cloud Data now expects meta file name and backup file name
+
 ## [v2.0.2] - 2024-03-07
 
 - Removed Type Dependency

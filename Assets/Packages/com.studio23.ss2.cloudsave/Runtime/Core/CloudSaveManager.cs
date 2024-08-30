@@ -108,7 +108,7 @@ namespace Studio23.SS2.CloudSave.Core
         }
 
         
-        public async UniTask DeleteContainerFromCloud(string slotName)
+        public async UniTask DeleteContainerFromCloud(string slotName, string metafileName, string backupFileName)
         {
             if (_provider == null)
             {
@@ -116,7 +116,7 @@ namespace Studio23.SS2.CloudSave.Core
                 return;
             }
 
-            await _provider.DeleteSlotFromCloud(slotName);
+            await _provider.DeleteSlotFromCloud(slotName, metafileName, backupFileName);
         }
 
 
